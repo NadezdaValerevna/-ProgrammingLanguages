@@ -1,0 +1,30 @@
+if ( wbedroomm bedroom = 2 | wbedroomm bedroom = 4 | wbedroomm bedroom = 9 ) {
+bedroom bedroomwindow = open
+}
+if ( move livingroom < 0 ) {
+livingroom light = on
+}
+if ( move bedroom < 0 ) {
+bedroom light = on
+}
+if ( move kitchen < 5 ) {
+kitchen light = on
+}
+if (gas kitchen > 0 ) {
+kitchen hood = on
+}
+if ( lvlbathroom = 80 ) {
+bathroom mixertap = on
+}
+if ( move hallaway < 0 ) {
+hallaway light = on
+}
+
+
+
+
+
+
+
+
+
